@@ -35,7 +35,7 @@ public class ArrayOp {
 
     public static int[][] penjumlahanArray(int[][] array, int baris, int kolom){
 
-        int [][] ArrayHasil = new int[1][kolom]; // Menginisialisasi array hasil penjumlahan
+        int [][] ArrayHasil = new int[baris][kolom];
         int sum = 0;
 
         System.out.println();
